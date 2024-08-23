@@ -4,8 +4,8 @@ metal:
       hosts:
         metal0: {ansible_host: 192.168.1.80, vip: 10.0.1.19, mac: '7C:83:34:BA:19:9A', disk: nvme0n1, network_interface: enp3s0} # Optiplex 7050 66P08M2
         # metal1: {ansible_host: 10.0.1.21, mac: '18:03:73:33:82:6c', disk: sda, network_interface: eno1} # Optiplex 790 2XTY7V1
-        metal1: {ansible_host: 192.168.1.81, vip: 10.0.1.19, mac: '7C:83:34:BA:15:F6', disk: sda, network_interface: enp3s0} # Optiplex 7050 77DYHK2
-        metal2: {ansible_host: 192.168.1.81, vip: 10.0.1.19, mac: '7C:83:34:B9:88:9F', disk: sda, network_interface: enp3s0} # Optiplex 7050 77DWHK2
+        metal1: {ansible_host: 192.168.1.81, vip: 10.0.1.19, mac: '7C:83:34:BA:15:F6', disk: nvme0n1, network_interface: enp3s0} # Optiplex 7050 77DYHK2
+        metal2: {ansible_host: 192.168.1.81, vip: 10.0.1.19, mac: '7C:83:34:B9:88:9F', disk: nvme0n1, network_interface: enp3s0} # Optiplex 7050 77DWHK2
     workers:
       hosts:
         # metal3: {ansible_host: 192.168.1.113, mac: '00:23:24:d1:f5:69', disk: sda, network_interface: eno1}
