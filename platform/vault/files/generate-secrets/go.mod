@@ -1,4 +1,4 @@
-module git.zanelab.com/zanehala/homelab/vault/init
+module git.evilgarfield.com/zanehala/homelab/vault/init
 
 go 1.22
 

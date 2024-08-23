@@ -4,4 +4,4 @@ version: 0.0.0
 dependencies:
   - name: site
     version: 0.1.0
-    repository: https://git.zanelab.com/api/packages/zhala/helm
+    repository: https://git.evilgarfield.com/api/packages/zhala/helm

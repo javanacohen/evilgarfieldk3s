@@ -35,4 +35,4 @@ RUN pacman --sync --refresh --noconfirm \
         terraform
 
 # TODO https://github.com/ansible-collections/community.docker/issues/216
-RUN pip install docker-compose
+#RUN pip install docker-compose

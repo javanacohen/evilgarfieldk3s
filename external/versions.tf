@@ -3,7 +3,7 @@ terraform {
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "zanelab"
+    organization = "ws-fodnhoYFx1UnRi73"
 
     workspaces {
       name = "homelab-external"

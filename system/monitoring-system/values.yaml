@@ -7,7 +7,7 @@ kube-prometheus-stack:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - &host grafana.zanelab.com
+        - &host grafana.evilgarfield.com
       tls:
         - secretName: grafana-general-tls
           hosts:
@@ -40,7 +40,7 @@ kube-prometheus-stack:
             credentials: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmZWEwM2JiMDgzYjY0MTkyYWFlNzM4NGQyOTU0YjFkZCIsImlhdCI6MTY3MzIwMDYxMiwiZXhwIjoxOTg4NTYwNjEyfQ.g2uIEL92OzKFjvdbt_Kbs1to5wqo--PQWFeuMwWpT6E"
           scheme: https
           static_configs:
-            - targets: ['ha.zanelab.com']
+            - targets: ['ha.evilgarfield.com']
         - job_name: "pfsense"
           scrape_interval: 60s
           scheme: http

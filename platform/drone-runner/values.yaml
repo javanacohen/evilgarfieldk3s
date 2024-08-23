@@ -3,7 +3,7 @@ drone-runner-kube:
     - droneci-secrets
   env:
     DRONE_NAMESPACE_DEFAULT: drone-runner
-    DRONE_RPC_HOST: drone.zanelab.com
+    DRONE_RPC_HOST: drone.evilgarfield.com
     DRONE_RPC_PROTO: https
     DRONE_RUNNER_PRIVILEGED_IMAGES: docker/dind
 

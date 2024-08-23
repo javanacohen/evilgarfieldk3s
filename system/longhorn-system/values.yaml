@@ -10,7 +10,7 @@ longhorn:
     ingressClassName: nginx
     annotations:
       cert-manager.io/cluster-issuer: letsencrypt-prod
-    host: longhorn.zanelab.com
+    host: longhorn.evilgarfield.com
     path: /
     tls:
       tlsSecret: longhorn-tls-certificate

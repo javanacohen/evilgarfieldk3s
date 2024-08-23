@@ -11,7 +11,7 @@ coder:
     # they are already set by the Helm chart and will cause conflicts.
     env:
       - name: CODER_ACCESS_URL
-        value: "https://coder.zanelab.com"
+        value: "https://coder.evilgarfield.com"
       - name: CODER_PG_CONNECTION_URL
         valueFrom:
           secretKeyRef:
@@ -30,7 +30,7 @@ coder:
     ingress:
       enable: true
       className: nginx
-      host: "coder.zanelab.com"
+      host: "coder.evilgarfield.com"
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       tls:

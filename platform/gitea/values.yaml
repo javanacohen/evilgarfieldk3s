@@ -6,7 +6,7 @@ gitea:
       cert-manager.io/cluster-issuer: letsencrypt-prod
       nginx.ingress.kubernetes.io/proxy-body-size: 0m
     hosts:
-      - host: &host git.zanelab.com
+      - host: &host git.evilgarfield.com
         paths:
           - path: /
             pathType: Prefix
@@ -20,9 +20,9 @@ gitea:
     config:
       server:
         LANDING_PAGE: explore
-        ROOT_URL: https://git.zanelab.com
+        ROOT_URL: https://git.evilgarfield.com
       webhook:
-        ALLOWED_HOST_LIST: "*.zanelab.com,*.slack.com"
+        ALLOWED_HOST_LIST: "*.evilgarfield.com,*.slack.com"
       Time:
         DEFAULT_UI_LOCATION: America/Chicago
       repository:

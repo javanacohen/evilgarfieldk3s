@@ -9,10 +9,10 @@ seafile:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
         nginx.ingress.kubernetes.io/proxy-body-size: 0m
-        external-dns.alpha.kubernetes.io/target: "homelab-prod-tunnel.zanelab.com"
+        external-dns.alpha.kubernetes.io/target: "homelab-prod-tunnel.evilgarfield.com"
         external-dns.alpha.kubernetes.io/cloudflare-proxied: "true"
       hosts:
-        - host: &host seafile.zanelab.com
+        - host: &host seafile.evilgarfield.com
           paths:
             - path: /
               pathType: Prefix

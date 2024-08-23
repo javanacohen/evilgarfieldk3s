@@ -4,4 +4,4 @@ version: 0.0.0
 dependencies:
   - name: goldpinger
     version: 0.1.3
-    repository: https://git.zanelab.com/api/packages/zhala/helm
+    repository: https://git.evilgarfield.com/api/packages/zhala/helm

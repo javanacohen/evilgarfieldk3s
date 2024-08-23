@@ -10,7 +10,7 @@ authentik:
     annotations:
       cert-manager.io/cluster-issuer: letsencrypt-prod
     hosts:
-      - host: &host authentik.zanelab.com
+      - host: &host authentik.evilgarfield.com
         paths:
           - path: /
             pathType: Prefix
