@@ -2,7 +2,7 @@
 
 default: metal bootstrap wait
 
-all: configure metal bootstrap external wait
+all: metal bootstrap external wait
 
 configure:
 	./scripts/configure
