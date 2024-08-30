@@ -1,9 +1,9 @@
 terraform {
-  required_version = "~> 1.3.0"
+  required_version = "> 1.3.0"
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "ws-fodnhoYFx1UnRi73"
+    organization = "evilgarfk3s"
 
     workspaces {
       name = "homelab-external"

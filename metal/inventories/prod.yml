@@ -3,9 +3,10 @@ metal:
     masters:
       hosts:
         metal0: {ansible_host: 192.168.1.80, vip: 10.0.1.19, mac: '7c:83:34:ba:19:9a', disk: nvme0n1, network_interface: enp3s0} # Beelink Shitbox i5
-        # metal1: {ansible_host: 10.0.1.21, mac: '18:03:73:33:82:6c', disk: sda, network_interface: eno1} # Optiplex 790 2XTY7V1
         metal1: {ansible_host: 192.168.1.81, vip: 10.0.1.19, mac: '7c:83:34:ba:15:f6', disk: nvme0n1, network_interface: enp3s0} # Beelink Shitbox i5
-        metal2: {ansible_host: 192.168.1.82, vip: 10.0.1.19, mac: '7c:83:34:b9:88:9f', disk: nvme0n1, network_interface: enp3s0} # Beelink Shitbox N100
+        metal2: {ansible_host: 192.168.1.82, vip: 10.0.1.19, mac: 'e8:ff:1e:d3:9c:a6', disk: nvme0n1, network_interface: enp3s0} # Beelink Shitbox i5
+        #metal3: {ansible_host: 192.168.150.82, mac: '00:50:56:21:11:7c', disk: nvme0n1, network_interface: enp3s0} # Virtual Machine to troubleshoot n100
     workers:
       hosts:
         # metal3: {ansible_host: 192.168.1.113, mac: '00:23:24:d1:f5:69', disk: sda, network_interface: eno1}
+

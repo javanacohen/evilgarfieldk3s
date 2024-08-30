@@ -4,8 +4,9 @@ default: metal bootstrap wait
 
 all: metal bootstrap external wait
 
+.PHONY: configure
 configure:
-	./scripts/configure
+	python3 scripts/configure
 	git status
 
 .PHONY: metal
@@ -20,8 +21,8 @@ bootstrap:
 external:
 	make -C external
 
-wait:
-	./scripts/wait-main-apps
+#wait:
+#	python3 scripts/wait-main-apps
 
 .PHONY: tools
 tools:

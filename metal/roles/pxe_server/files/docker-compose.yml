@@ -22,3 +22,4 @@ services:
       - ./data/init-config/:/usr/share/nginx/html/init-config
     environment:
       NGINX_PORT: 80
+
