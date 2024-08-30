@@ -21,8 +21,8 @@ bootstrap:
 external:
 	make -C external
 
-#wait:
-#	python3 scripts/wait-main-apps
+wait:
+	python3 scripts/wait-main-apps
 
 .PHONY: tools
 tools:

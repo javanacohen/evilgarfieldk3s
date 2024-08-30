@@ -17,7 +17,7 @@ terraform.tfvars:
 	touch .terraform.lock.hcl
 
 namespaces:
-	ansible-playbook namespaces.yml
+	ansible-playbook namespaces.yml 
 
 plan: .terraform.lock.hcl
 	terraform plan
